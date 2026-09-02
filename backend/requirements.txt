@@ -1,0 +1,17 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+sqlalchemy==2.0.36
+pydantic==2.10.3
+PyJWT==2.10.1
+passlib[bcrypt]==1.7.4
+# Pinned: passlib 1.7.4's bcrypt backend probes bcrypt.__about__.__version__,
+# which was removed in bcrypt>=4.1 — this raises at hash-time, not import
+# time, so it silently breaks register/login/seeding otherwise.
+bcrypt==4.0.1
+APScheduler==3.10.4
+rapidfuzz==3.10.1
+pillow==11.0.0
+pytesseract==0.3.13
+python-multipart==0.0.20
+pytest==8.3.4
+httpx==0.28.1
