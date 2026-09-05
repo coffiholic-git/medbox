@@ -1,0 +1,14 @@
+[
+  {"name": "Paracetamol", "strength": "500 mg", "form": "Tablet", "active_ingredient": "acetaminophen", "manufacturer": "Generic Pharma", "instructions": "Take 1 tablet after meals, up to 3 times daily"},
+  {"name": "Ibuprofen", "strength": "400 mg", "form": "Tablet", "active_ingredient": "ibuprofen", "manufacturer": "Generic Pharma", "instructions": "Take 1 tablet with food every 6-8 hours"},
+  {"name": "Amoxicillin", "strength": "500 mg", "form": "Capsule", "active_ingredient": "amoxicillin", "manufacturer": "MedCore Labs", "instructions": "Take 1 capsule every 8 hours, complete the full course"},
+  {"name": "Amlodipine", "strength": "5 mg", "form": "Tablet", "active_ingredient": "amlodipine", "manufacturer": "CardioGen", "instructions": "Take 1 tablet every morning"},
+  {"name": "Metformin", "strength": "500 mg", "form": "Tablet", "active_ingredient": "metformin", "manufacturer": "Generic Pharma", "instructions": "Take 1 tablet with breakfast and dinner"},
+  {"name": "Vitamin D3", "strength": "1000 IU", "form": "Softgel", "active_ingredient": "cholecalciferol", "manufacturer": "WellVite", "instructions": "Take 1 softgel weekly with breakfast"},
+  {"name": "Cetirizine", "strength": "10 mg", "form": "Tablet", "active_ingredient": "cetirizine", "manufacturer": "Generic Pharma", "instructions": "Take 1 tablet at night for allergy relief"},
+  {"name": "Omeprazole", "strength": "20 mg", "form": "Capsule", "active_ingredient": "omeprazole", "manufacturer": "MedCore Labs", "instructions": "Take 1 capsule before breakfast"},
+  {"name": "Aspirin", "strength": "75 mg", "form": "Tablet", "active_ingredient": "acetylsalicylic acid", "manufacturer": "CardioGen", "instructions": "Take 1 tablet daily after food"},
+  {"name": "Atorvastatin", "strength": "10 mg", "form": "Tablet", "active_ingredient": "atorvastatin", "manufacturer": "CardioGen", "instructions": "Take 1 tablet at night"},
+  {"name": "Azithromycin", "strength": "500 mg", "form": "Tablet", "active_ingredient": "azithromycin", "manufacturer": "MedCore Labs", "instructions": "Take 1 tablet daily for 3 days"},
+  {"name": "Losartan", "strength": "50 mg", "form": "Tablet", "active_ingredient": "losartan", "manufacturer": "CardioGen", "instructions": "Take 1 tablet every morning"}
+]

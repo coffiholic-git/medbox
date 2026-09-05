@@ -1,0 +1,28 @@
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+sqlalchemy==2.0.36
+pydantic==2.10.3
+PyJWT==2.10.1
+# Use bcrypt directly (not passlib): recent bcrypt releases work on current
+# Python versions, whereas passlib 1.7.4 probes a removed private attribute.
+bcrypt>=4.1
+APScheduler==3.10.4
+pillow==11.0.0
+pytesseract==0.3.13
+python-multipart==0.0.20
+pytest==8.3.4
+httpx==0.28.1
+
+# backend/perception — real medicine-recognition pipeline (6.1/6.2/6.6).
+# opencv-python-headless + numpy are required at import time by
+# backend/perception/ocr.py and preprocessing.py. paddleocr/paddlepaddle
+# back the primary OCR engine, but are imported lazily inside
+# PaddleOCREngine.__init__ — if they're missing (or too heavy for a given
+# environment), services/ocr_service.py catches that and falls back to
+# Tesseract-only, or to the labelled simulated OCR if tesseract itself is
+# also unavailable. rapidfuzz is no longer needed here: the pipeline's
+# matching uses difflib (backend/perception/medicine_matcher.py).
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+paddleocr==2.9.1
+paddlepaddle==2.6.2
