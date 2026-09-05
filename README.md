@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MedBox — run locally
 
 MedBox consists of three connected layers:
@@ -48,3 +49,8 @@ Vite forwards all `/api/*` calls to FastAPI on port 8000. No frontend environmen
 3. Confirm the recognized result. It is persisted once to SQLite with the selected initial stock, then the medicine library refreshes from the backend.
 
 For a production Firebase sign-in, create `frontend/.env.local` with the `VITE_FIREBASE_*` values used in `frontend/src/config/firebase.js`. The backend email/password authentication works without Firebase.
+=======
+# medbox
+1. added frontend
+2. added backend
+>>>>>>> ffef9b73cfef2c202835281639a3d1bcb74d927d
