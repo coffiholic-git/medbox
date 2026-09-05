@@ -1,22 +1,36 @@
-\# MedBox
+\From:
 
+(.venv) D:\Medbx>
 
+run:
 
-AI-powered medicine assistance system designed to help blind and visually impaired users identify and manage medicines.
+python experiments\run_pipeline.py
 
+You should get something like:
 
+MEDBOX MEDICINE RECOGNITION
+---------------------------
+Medicine Name:
+Paracetamol
 
-\## Project Goal
+Confidence:
+73.3%
 
+Status:
+Needs Confirmation
 
+Message:
+Medicine detected but confirmation is required.
 
-MedBox uses computer vision, OCR, voice interaction, and AI-based medicine recognition to make everyday medicine management more accessible and independent.
+MEDICINE INFORMATION
+--------------------
+Generic Name : Paracetamol
+Common Uses : ['pain relief', 'fever']
+Warning : Use only as directed.
 
-
-
-\## Current Development
-
-
-
-Computer Vision and image preprocessing.
-
+PACKAGE INFORMATION
+-------------------
+Dosage             : Not detected
+Manufacturing Date : Not detected
+Expiry Date        : Not detected
+Batch Number       : Not detected
