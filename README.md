@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # MedBox — run locally
 
 MedBox consists of three connected layers:
